@@ -1051,14 +1051,15 @@ nav.fixed-top .nav-item .nav-link:before {
     border: 1px solid orange;
     padding: 5px;
     width: 90%;
+    height: calc(2.25rem + 2px);
 }
 
 #cars {
     color: rgb(105, 105, 105);
     background-color: rgb(235, 235, 235);
     border-radius: 2px;
-    padding: 1px;
-    padding-left: 10px;
+    padding: 5px;
+    /* padding-left: 10px; */
 }
 
 .booking-dropdown-form select option {
@@ -1071,7 +1072,7 @@ nav.fixed-top .nav-item .nav-link:before {
     color: white;
     padding: 10px 50px;
     border-radius: 5px;
-    outline: none;
+    /* outline: none; */
 }
 
 .booking-dropdown-form button:hover {
