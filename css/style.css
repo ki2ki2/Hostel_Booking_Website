@@ -1047,8 +1047,11 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .booking-dropdown-form select {
     display: flex;
-    margin: 15px;
-    border: 1px solid orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid orange;
     padding: 5px;
     width: 90%;
     height: calc(2.25rem + 2px);
@@ -1059,7 +1062,6 @@ nav.fixed-top .nav-item .nav-link:before {
     background-color: rgb(235, 235, 235);
     border-radius: 2px;
     padding: 5px;
-    /* padding-left: 10px; */
 }
 
 .booking-dropdown-form select option {
@@ -1067,10 +1069,15 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .booking-dropdown-form button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
     background-color: rgb(255, 113, 62);
     border: none;
     color: white;
-    padding: 10px 50px;
+    padding: 8px 50px;
     border-radius: 5px;
     /* outline: none; */
 }
