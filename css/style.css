@@ -232,11 +232,11 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .booking-form .checkbox {
     display: flex;
-    margin: 10px;
+    margin: 100px;
 
 }
 
-.booking-form input,
+/* .booking-form input, */
 .booking-form select {
     width: 400px;
     /* border:.5px solid #e2e0e0; */
@@ -273,6 +273,15 @@ nav.fixed-top .nav-item .nav-link:before {
     background: #fff;
     border: 2px solid #ed7f30;
     color: #ed7f30;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .post {
+        margin: 15px 0;
+    }
+
 }
 
 
@@ -468,11 +477,10 @@ nav.fixed-top .nav-item .nav-link:before {
     background-color: #fff;
 }
 
-@media (max-width: 768px) {
-    .post {
-        margin: 15px 0;
-    }
-}
+
+
+
+
 
 .blogs .img-wrapper {
     position: relative;
@@ -1030,11 +1038,19 @@ nav.fixed-top .nav-item .nav-link:before {
     bottom: 77px;
 }
 
+@media only screen and (max-width:768px){
+    .booking-dropdown-form{
+        flex-direction: column;
+        width: 50vw;
+    }
+}
+
 .booking-dropdown-form select {
+    display: flex;
     margin: 15px;
     border: 1px solid orange;
     padding: 5px;
-    width: 50%;
+    width: 90%;
 }
 
 #cars {
