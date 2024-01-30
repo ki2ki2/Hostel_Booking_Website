@@ -1079,7 +1079,7 @@ nav.fixed-top .nav-item .nav-link:before {
     color: white;
     padding: 8px 50px;
     border-radius: 5px;
-    /* outline: none; */
+    outline: none;
 }
 
 .booking-dropdown-form button:hover {
